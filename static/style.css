@@ -8,9 +8,18 @@
     url("font/SBSansDisplay-Regular.svg#SBSansDisplay-Regular") format("true-type");
 }
 
+@font-face {
+    font-family: 'SBSemiBold';
+    src: url("font/SemiBold/SBSansDisplay-SemiBold.eot");
+    src: url("font/SemiBold/SBSansDisplay-SemiBold.eot") format("embedded-opentype"),
+    url("font/SemiBold/SBSansDisplay-SemiBold.woff2") format("woff2"),
+    url("font/SemiBold/SBSansDisplay-SemiBold.woff") format("woff"),
+    url("font/SemiBold/SBSansDisplay-SemiBold.ttf") format("true-type"),
+    url("font/SemiBold/SBSansDisplay-SemiBold.svg#SBSansDisplay-Regular") format("true-type");
+}
 #image {
     width: 40vmin;
-    padding-top: 40px;
+    padding-top: 10vmin;
 }
 #container {
     padding: 0 48px 0 48px;
@@ -20,12 +29,12 @@
 
 }
 #ticket {
-    padding-top: 76px;
-    font-size: 20vmin;
+    padding-top: 15vmin;
+    font-size: 25vmin;
 }
 #operation {
     padding-top: 24px;
-    font-size: 9vmin;
+    font-size: 10vmin;
 }
 body {
     font-family: 'SBRegular', 'Helvetica', 'Arial', sans-serif;
