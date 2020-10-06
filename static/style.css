@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'SBRegular';
+    src: url("static/font/SBSansDisplay-Regular.eot");
+    src: url("static/font/SBSansDisplay-Regular.eot") format("embedded-opentype"),
+    url("static/font/SBSansDisplay-Regular.woff2") format("woff2"),
+    url("static/font/SBSansDisplay-Regular.woff") format("woff"),
+    url("static/font/SBSansDisplay-Regular.ttf") format("true-type"),
+    url("static/font/SBSansDisplay-Regular.svg#SBSansDisplay-Regular") format("true-type");
+}
+
 #image {
     width: 40vmin;
 }
@@ -15,3 +25,7 @@
 #operation {
     font-size: 32px;
 }
+body {
+    font-family: 'SBRegular', 'Helvetica', 'Arial', sans-serif;
+}
+
