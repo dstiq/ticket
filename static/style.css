@@ -1,29 +1,31 @@
 @font-face {
     font-family: 'SBRegular';
-    src: url("static/font/SBSansDisplay-Regular.eot");
-    src: url("static/font/SBSansDisplay-Regular.eot") format("embedded-opentype"),
-    url("static/font/SBSansDisplay-Regular.woff2") format("woff2"),
-    url("static/font/SBSansDisplay-Regular.woff") format("woff"),
-    url("static/font/SBSansDisplay-Regular.ttf") format("true-type"),
-    url("static/font/SBSansDisplay-Regular.svg#SBSansDisplay-Regular") format("true-type");
+    src: url("font/SBSansDisplay-Regular.eot");
+    src: url("font/SBSansDisplay-Regular.eot") format("embedded-opentype"),
+    url("font/SBSansDisplay-Regular.woff2") format("woff2"),
+    url("font/SBSansDisplay-Regular.woff") format("woff"),
+    url("font/SBSansDisplay-Regular.ttf") format("true-type"),
+    url("font/SBSansDisplay-Regular.svg#SBSansDisplay-Regular") format("true-type");
 }
 
 #image {
     width: 40vmin;
+    padding-top: 40px;
 }
 #container {
+    padding: 0 48px 0 48px;
     text-align: center;
-    width: 318px;
-    height: 104px;
     margin: 0 auto;
     font-weight: 600;
-    line-height: 104px;
+
 }
 #ticket {
-    font-size: 80px;
+    padding-top: 76px;
+    font-size: 20vmin;
 }
 #operation {
-    font-size: 32px;
+    padding-top: 24px;
+    font-size: 9vmin;
 }
 body {
     font-family: 'SBRegular', 'Helvetica', 'Arial', sans-serif;

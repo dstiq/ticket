@@ -1,7 +1,12 @@
 function getInfo() {
     var params = new URLSearchParams(location.search);
-    var ticket = params.get('ticketCode');
-    var operation = params.get('operationName');
+    var ticket = params.get('ticketCode') == null
+        ? ''
+        : params.get('ticketCode');
+    var operation = params.get('operationName') === null
+        ? ''
+        : params.get('operationName');
+
     return [ticket, operation];
 }
 
