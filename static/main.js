@@ -15,6 +15,4 @@ function drawInfo(params) {
 
 }
 
-function main() {
-    drawInfo(getInfo())
-}
+drawInfo(getInfo());
